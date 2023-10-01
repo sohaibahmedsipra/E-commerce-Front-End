@@ -1,0 +1,22 @@
+.footer
+{
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .social-links .icon1
+{
+    color:#2c6998;
+    margin-left: 10px;
+    height: 20px;
+    padding-top: 5px;
+}
+
+.footer .social-links .icon1 :hover
+{
+    color: aliceblue;
+}

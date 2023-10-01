@@ -1,0 +1,70 @@
+.sidecart-inactive {
+    position: fixed;
+    right: 0;
+    width: 500px;
+    height: 100%;
+    background: #c8c7c7d5;
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+    border: #3f3e3e;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.sidecart-active {
+    position: fixed;
+    right: 0;
+    width: 500px;
+    height: 100%;
+    background: #c8c7c7d5;
+    z-index: 999;
+    transform: translateX(0%);
+    transition: transform 0.5s ease-in-out;
+    border: #3f3e3e;
+    border-radius: 5px;
+    overflow-y: auto;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.sidecart-active .icon,
+.sidecart-inactive .icon{
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.sidecart-active .sidecart-close-btn,
+.sidecart-inactive .sidecart-close-btn{
+    top: 10px;
+    left: auto; /* Remove the "right" property */
+    right: 10px; /* Set the "right" property to the desired value */
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px #000000;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+.sidecart-active .sidecart-total,
+.sidecart-inactive .sidecart-total{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #fff;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}

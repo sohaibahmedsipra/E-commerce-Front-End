@@ -1,0 +1,47 @@
+.sidecart-product
+{
+    height : 150px;
+    width : 100%;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    border-bottom : 1px solid #6f6e6e94;
+    background-color: rgba(240, 248, 255, 0.734);
+}
+.sidecart-product img
+{
+    margin-top: 10px;
+    margin-bottom :10px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    height : 100px;
+    object-fit : contain;
+    margin-right: 30px;
+}
+
+.sidecart-product p
+{
+    font-size : 15px;
+    font-weight : bold;
+    margin-right : 10px;
+}
+
+.sidecart-product .image
+{
+    display : flex;
+    align-items : center;
+    justify-content : center;
+
+}
+
+.sidecart-product .btn
+{
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.248);
+}
+
+.sidecart-product .details
+{
+    margin-right: 40px;
+}
