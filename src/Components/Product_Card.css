@@ -65,3 +65,35 @@
 {
     height: 15px;
 }
+
+@media screen and (max-width: 768px) {
+    .product-card {
+        margin-right: 0px;
+        margin-bottom: 20px;
+        height: auto;
+        width: 40%; 
+    }
+
+    .product-card .header {
+        font-size: 14px;
+    }
+
+    .product-card img {
+        height: 120px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+        border-radius: 0px;
+
+    }
+
+    .product-card .pricelabel,
+    .product-card .sizelabel {
+        font-size: 13px;
+    }
+
+    .product-card .btn {
+        font-size: 13px;
+    }
+}
