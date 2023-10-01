@@ -46,6 +46,20 @@
 
 }
 
+@media screen and (max-width: 768px) {
+  .product-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  .grid-container {
+    padding-left: 0px;
+  }
+}
+
 .grid-container {
   padding-left: 330px;
   margin-bottom: 50px;
