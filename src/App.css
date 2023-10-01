@@ -45,6 +45,10 @@
   text-align: center;
 
 }
+.grid-container {
+  padding-left: 330px;
+  margin-bottom: 50px;
+}
 
 @media screen and (max-width: 768px) {
   .product-container {
@@ -58,10 +62,9 @@
   .grid-container {
     padding-left: 0px;
     width:100%;
+    padding:0;
+    margin:0;
   }
 }
 
-.grid-container {
-  padding-left: 330px;
-  margin-bottom: 50px;
-}
+
